@@ -9,3 +9,5 @@ dist/
 *~
 *.egg-info/
 
+mac-talib-start/data/*
+mac-talib-start/SBIN.csv
