@@ -12,3 +12,4 @@ dist/
 mac-talib-start/data/*
 mac-talib-start/SBIN.csv
 *.csv
+mac-talib-start/logs.*
