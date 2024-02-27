@@ -131,7 +131,7 @@ cmdclass = LazyBuildExtCommandClass()
 ext_modules = [
     Extension(
         'talib._ta_lib',
-        ['talib/_ta_lib.pyx' if has_cython else 'talib/_ta_lib.c'],
+        ['talib/_ta_lib.pyx' if has_cython else 'talib/_ta_lib.c_bkp'],
         include_dirs=include_dirs,
         library_dirs=library_dirs,
         libraries=[lib_talib_name],
